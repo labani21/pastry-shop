@@ -4,11 +4,11 @@
   width: 350px;
   margin: auto;
   opacity: 0.7;
-  height: 420px;
+  height: 480px;
   margin-left: 500px;
   background-color: rgb(118, 92, 235);
   border-radius: 5%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .signup{
   background-color: #f73145;
@@ -22,19 +22,19 @@
 //   text-align: center;
 // }
 
-input[type=text]{
+input[type=text1]{
   width: 240px;
   text-align: center;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #fff;
   // font-family: 'play',sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   // font-weight: 200px;
   // padding: 20px 0;
   transition: border 0 0.5s;
   outline: none;
-  color: #fff;
+  color: black;
 }
 input[type=email]{
   width: 240px;
@@ -43,12 +43,12 @@ input[type=email]{
   border: none;
   border-bottom: 1px solid #fff;
   // font-family: 'play',sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   // font-weight: 200px;
   // padding: 20px 0;
   transition: border 0 0.5s;
   outline: none;
-  color: #fff;
+  color: black;
   margin-top: -500px;
 }
 input[type=password]{
@@ -58,12 +58,12 @@ input[type=password]{
   border: none;
   border-bottom: 1px solid #fff;
   // font-family: 'play',sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   // font-weight: 200px;
   // padding: 20px 0;
   transition: border 0 0.5s;
   outline: none;
-  color: #fff;
+  color: black;
   margin-top: -600px;
 
 }
@@ -92,4 +92,8 @@ input[type=password]{
   width: 130px;
   font-family: Verdana;
   margin-left: 60px;
+}
+.label-signup{
+  font-family: Verdana;
+  color: #fff;
 }

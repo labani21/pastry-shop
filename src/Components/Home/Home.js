@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import Footer from '../../Layout/Footer'
 import Cakes from '../ItemCard/Cakes'
 import Itemcard from '../ItemCard/Itemcard'
@@ -7,11 +8,17 @@ import './Home.scss'
 
 
 export default function Home() {
+  const navigate=useNavigate();
+
+  const handleChange=()=>{
+    navigate('/Menu');
+  }
+
   return (
     <>
     <div >  
         <img src={cake} className='img1'/>
-        <button className='btn5'>Order Now</button>
+        <button onClick={handleChange} className='btn5'>Order Now</button>
         <div>
         <h2 className='text11'>Best Cake in town</h2>
         <h4 className='text12'>Cake makes everything better—all the more reason to get one delivered</h4>

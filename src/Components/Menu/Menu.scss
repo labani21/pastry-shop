@@ -1,36 +1,37 @@
-.Menu{
-    margin-left: 150px;
-}
-.Menu-col1{
-    margin-top: 30px;
-    text-align: 100%;  
-}
-.Menu-col2{
-    margin-top: 5%;
-    margin-bottom: -15%;
-  
-}
-.Img6{
-    height: 250px;
-
-}
-.link1{
-    color: #f73145;
-}
-.link1:link {
-    text-decoration: none;
-    font-family: Verdana;
-  }
-  
-  .link1:visited {
-    text-decoration: none;
-  }
-.text5{
-    font-family: Verdana;
-}
-.heading2{
-    font-family: Verdana;
-}
-.menu-row{
-    margin-right: 5%;
+.Mrow{
+    margin-left: 90px;
+    font-size: 18px;
     }
+
+.Card-img{
+    height: 200px;
+    width: 255px;
+}
+// .row{
+//     margin-left: 45px;
+//     font-size: 18px;
+//     font-family:  sans-serif;
+//     height: 10px; 
+//     margin-bottom: 30px;
+//     margin-top: 20px;
+//     justify-content: flex-start;
+// }
+.Link{
+    text-decoration: none;
+    color: #f73145;
+    font-family: verdana;
+}
+.Card-title{
+    font-family: verdana;
+}
+.searchInput{
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    font-size: 15px;
+    width: 255px;
+   
+}
+.card1{
+    height: 300px;
+}

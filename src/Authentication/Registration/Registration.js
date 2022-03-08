@@ -68,11 +68,11 @@ const handleLogout=()=>{
     <div className='signup'>
     <div className="signupFrm1">
     <form   className="form" onSubmit={formik.handleSubmit}>
-
+     <h3 className='label-signup'>Signup</h3>
     <br/>
     <div className='inputContainer'>
      <label className='label2'> Username</label>
-     <input type="text"  name="username" value={formik.values.username} 
+     <input type="text1"  name="username" value={formik.values.username} 
      onChange={formik.handleChange}
      onBlur={formik.handleBlur}/>
      {formik.touched.username && formik.errors.username ?

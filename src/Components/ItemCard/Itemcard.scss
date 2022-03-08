@@ -1,5 +1,6 @@
 .cardCont {
     margin-top: 2%;
+    margin-left: 100px;
 }
 // .Item .cardCont .cardImg{
 //     width: 100px;
@@ -34,5 +35,13 @@
     border: none;
     margin-right: 120px;
     border-radius: 30px;
-    width:180px;
-}
+    width:180px;}
+
+@media screen and (max-width: 600px) {
+.Item-col {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      

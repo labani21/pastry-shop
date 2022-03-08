@@ -18,7 +18,7 @@ export default function Cakes() {
       <div className='cake'>
       <Container>
   <Row>
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={ferrero} />
     <Card.Body>
       <Card.Title className='text9'>Ferrero Rocher Cake</Card.Title>
@@ -32,7 +32,7 @@ export default function Cakes() {
     </Card.Body>
   </Card></Col>
 
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={kitkat} />
     <Card.Body>
       <Card.Title className='text9'>Kitkat Cake</Card.Title>
@@ -46,7 +46,7 @@ export default function Cakes() {
     </Card.Body>
   </Card></Col>
 
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={makeup} />
     <Card.Body>
       <Card.Title className='text9'>Makeup kit Cake</Card.Title>
@@ -66,7 +66,7 @@ export default function Cakes() {
       <div class='cake1'>
       <Container>
   <Row>
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={fruitcake} />
     <Card.Body>
       <Card.Title className='text9'>Fruit Cake</Card.Title>
@@ -80,7 +80,7 @@ export default function Cakes() {
     </Card.Body>
   </Card></Col>
 
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={lichi} />
     <Card.Body>
       <Card.Title className='text9'>Lichi Cake</Card.Title>
@@ -94,7 +94,7 @@ export default function Cakes() {
     </Card.Body>
   </Card></Col>
 
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={rasmalai} />
     <Card.Body>
       <Card.Title className='text9'>Rashmalai Cake</Card.Title>
@@ -114,7 +114,7 @@ export default function Cakes() {
       <div className='cake2'>
       <Container>
   <Row>
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={bag} />
     <Card.Body>
       <Card.Title className='text9'>Bag Cake</Card.Title>
@@ -128,7 +128,7 @@ export default function Cakes() {
     </Card.Body>
   </Card></Col>
 
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={chocolate} />
     <Card.Body>
       <Card.Title className='text9'>Rich Chocolate Cake</Card.Title>
@@ -142,7 +142,7 @@ export default function Cakes() {
     </Card.Body>
   </Card></Col>
 
-    <Col><Card style={{ width: '18rem' }}>
+    <Col className='Cake-col'><Card style={{ width: '18rem' }}>
     <Card.Img className='Img5' alt='' variant="top" src={web} />
     <Card.Body>
       <Card.Title className='text9'>Web Cake</Card.Title>
