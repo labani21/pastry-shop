@@ -3,6 +3,7 @@ import {useFormik} from 'formik';
 import axios from 'axios';
 import Footer from '../../Layout/Footer';
 import './Login.scss'
+import { Navigate } from 'react-router-dom';
 
 
 
@@ -41,6 +42,7 @@ export default function Login() {
                 console.log("Axios res:",res);
                 window.localStorage.setItem("Token",res.data.token);
                 alert("You have login successfully");
+                Navigate("/Menu");
             })
             .catch(err=>{
                 console.log("Error in axios:",err);
@@ -54,7 +56,7 @@ export default function Login() {
       <>
       <div className='signin'>
  <div className="signinFrm">
-    <form className='form1' onSubmit={formik.handleSubmit}>
+    <form className='form45' onSubmit={formik.handleSubmit}>
      <h3 className='label-signin'>Sign In</h3>
     <br/>
     <div className='inputContainer'>

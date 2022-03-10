@@ -34,6 +34,7 @@ export default function Header() {
       <Nav.Link as={Link} className='option-menu' to="/Menu">Menu</Nav.Link>
       <Nav.Link as={Link} className='option-about' to="/About">AboutUs</Nav.Link>
       <Nav.Link as={Link} className='option-reg' to="/Registration">Sign Up</Nav.Link>
+      <Nav.Link as={Link} className='option-reg' to="/Feedback">Feedback</Nav.Link>
      
       <NavDropdown  title="Profile" className='option-profile' id="collasible-nav-dropdown" >
       <NavDropdown.Item className='option' as={Link} to="/Login">Sign In</NavDropdown.Item>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Navbar,Nav,Container,NavDropdown, Form} from 'react-bootstrap';
 import './Footer.scss'
 
 export default function Footer() {
@@ -8,6 +9,7 @@ export default function Footer() {
     <div className='container-fluid'>
        <div className='row'>
           <div className='col'>
+          
              <h5>KNOW US</h5>
              <ul className='list-unstyled'>
              <li>Our Story</li>
@@ -15,6 +17,7 @@ export default function Footer() {
              <li>Locate us</li>
              <li>Blog</li>
              </ul>
+             
           </div>
           <div className='col'>
             <h5>NEED HELP</h5>

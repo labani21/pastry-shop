@@ -1,7 +1,7 @@
 import React from 'react'
 import {useFormik} from 'formik';
 import axios from 'axios';
-import { useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import Footer from '../../Layout/Footer';
 import './Registration.scss'
 

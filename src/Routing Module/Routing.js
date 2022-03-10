@@ -7,6 +7,7 @@ import Home from '../Components/Home/Home';
 import PNF from '../Components/PNF/PNF';
 import Header from '../Layout/Header';
 import SubTopic from '../Topic/SubTopic/SubTopic';
+import Feedback from '../Components/Feedback/Feedback';
 import Protected from './Protected';
 
 
@@ -26,6 +27,7 @@ function Routing() {
     <Route path="/Registration" element={<Registration/>}/>
     <Route path="/Login" element={<Login/>}/>
     <Route path="/About" element={<About/>}/>
+    <Route path="/Feedback" element={<Feedback/>}/>
    
     
     <Route element={<Protected/>}>
